@@ -1,4 +1,4 @@
-prog-for-cyber-cw1
+Task 1 - security tool
 
 Name: khobaib waqar
 
@@ -6,17 +6,10 @@ Campus: University of the West of Scotland Lanarkshire
 
 Banner ID: B01869148
 
-Outline
+What the program does
 
-This repository is my portfolio for Programming for Cyber Security. It contains five Python exercises. Each exercise has its own branch with instructions for running the program and screenshots of the test results.
+The security tool uses a python program that asks the user sign in then it will display the security menu. This menu allows the user count how many times you are able to enter the password right or wrong, this shows how guessing passwords works when there is a limited amounts of attempts. this menu will reappear after each option until the user exits it
 
+How to run it 
 
-Exercises and Branches 
-
-What the program does/ Branch names 
-
-1. Security tools- The security tool uses a menu a to count the correct and incorrect password that you have entered
-2. security event logger- This security logger, logs each attempt to see if the password was entered in correctly or incorrectly
-3. IP address Validator- The IP Validator see if an IPV4 address has the correct amount of number between 0 to 255
-4. Security Incident Manager- The security Incident Manager uses a dictionary to store, update and show information about a security Incident
-5. Cyber Security Utilities-  uses a different Python module to check password and IP address and it will create a stronger password 
+the way you are able to run this will be from the terminal in the vs codel.
