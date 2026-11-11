@@ -6,17 +6,17 @@ Campus: University of the West of Scotland Lanarkshire
 
 Banner ID: B01869148
 
-Outline
+Description
 
-This repository is my portfolio for Programming for Cyber Security. It contains five Python exercises. Each exercise has its own branch with instructions for running the program and screenshots of the test results.
+This program ask the user for there username and password until both are correct. if the username and password are incorrect it will display failed login attempt
 
+Each login attempt will display an event ID, username, ip address, event type and the timestamp 
 
-Exercises and Branches 
+How to run 
+1. open the security_event_logger.py in the vs code
+2. open the terminal
+3. then run the command
 
-What the program does/ Branch names 
+Testing 
 
-1. Security tools- The security tool uses a menu a to count the correct and incorrect password that you have entered
-2. security event logger- This security logger, logs each attempt to see if the password was entered in correctly or incorrectly
-3. IP address Validator- The IP Validator see if an IPV4 address has the correct amount of number between 0 to 255
-4. Security Incident Manager- The security Incident Manager uses a dictionary to store, update and show information about a security Incident
-5. Cyber Security Utilities-  uses a different Python module to check password and IP address and it will create a stronger password 
+The screen shot for this program will be in this branch 
