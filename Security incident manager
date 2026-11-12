@@ -1,0 +1,33 @@
+#Security incident manager
+
+
+# creating a dictionary
+
+incident = {
+    "username": "student",
+    "ip_address": " 192.168.1.10",
+    "event_type": "failed login",
+    "risk_level": " medium"
+
+}
+
+# this is displaying the username and the ip address
+
+print("username:", incident["username"])
+print("ip address:", incident["ip_address"])
+
+
+incident["status"] = "open"
+
+
+incident["risk_level"] = "high"
+
+del incident["event_type"]
+
+print("\nSecurity incident details")
+
+for key, value in incident.items():
+    print(key, ":", value)
+
+
+print("\nTotal key-value pairs:", len(incident))
