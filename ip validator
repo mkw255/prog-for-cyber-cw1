@@ -1,0 +1,35 @@
+# function is to check if an Ip address is valid
+
+def validate_ip(ip):
+
+    ip = ip.strip()
+
+
+# this split the ip address into parts to is more readable 
+    parts = ip.split(".")
+
+    if len(parts) != 4:
+        return False
+
+    for part in parts:
+
+# this code make sure that it is only numbers
+        if not part.isdigit():
+            return False
+
+        num = int(part)
+
+# checks range 0-255
+        if num < 0 or num > 255:
+            return False
+    
+    return True
+
+# this ask for the user ip address
+ip = input("enter an ip address: ")
+
+# checks if the ip is valid
+if validate_ip(ip):
+    print("valid Ip address:")
+else:
+    print("Invalid Ip address")
