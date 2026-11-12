@@ -1,0 +1,40 @@
+# Security Event Logger
+
+# login details for the user 
+
+username = "student"
+password = "code123"
+
+# event id
+event_id = 5824
+
+user = ""
+password = ""
+
+
+# if the username and password are the code below will keep on asking you for the correct username and password 
+
+while user != username or password != password:
+    
+
+    user = input("enter username:")
+    password = input("enter password:")
+
+
+    # login details for the user
+
+    print("\nEvent id:", event_id)
+    print("username:", user)
+    print("ip address: 172.16.5.22")
+
+    
+
+    if user != username or password != password:
+        print("event: login failed")
+    else:
+        print("event: login successful")
+
+    # this displays the timestamp
+
+    print("timestamp: 2026-11-15 14:45:30")
+    print()
