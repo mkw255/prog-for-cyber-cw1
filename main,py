@@ -1,0 +1,19 @@
+
+import security_tools
+
+password = input("enter a password: ")
+ip = input("enter an ip address: ")
+
+#this checks the password
+
+if security_tools.validate_password(password):
+    print("password is strong")
+else:
+    print("password is weak")
+    print("suggested password:", security_tools.generate_password())
+
+# this checks the ip address
+if security_tools.validate_ip(ip):
+    print("valid ip address")
+else:
+    print("invalid ip address")
